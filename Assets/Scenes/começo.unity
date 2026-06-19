@@ -147,7 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854397418959416293, guid: 22352b48bf56c7b46889dbbbc6a11651, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.15
+      value: -0.87
       objectReference: {fileID: 0}
     - target: {fileID: 2854397418959416293, guid: 22352b48bf56c7b46889dbbbc6a11651, type: 3}
       propertyPath: m_LocalPosition.z
@@ -449,9 +449,10 @@ GameObject:
   m_Component:
   - component: {fileID: 430433278}
   - component: {fileID: 430433279}
+  - component: {fileID: 430433280}
   m_Layer: 0
   m_Name: ChaoMarrom (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -523,6 +524,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &430433280
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430433277}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &450502070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -544,11 +571,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854397418959416293, guid: 22352b48bf56c7b46889dbbbc6a11651, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.76
+      value: 5.87
       objectReference: {fileID: 0}
     - target: {fileID: 2854397418959416293, guid: 22352b48bf56c7b46889dbbbc6a11651, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.04
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 2854397418959416293, guid: 22352b48bf56c7b46889dbbbc6a11651, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1489,9 +1516,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1107665451}
   - component: {fileID: 1107665452}
+  - component: {fileID: 1107665453}
   m_Layer: 0
   m_Name: ChaoMarrom
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1563,6 +1591,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1107665453
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107665450}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1139147694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2273,9 +2327,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1613196234}
   - component: {fileID: 1613196233}
+  - component: {fileID: 1613196235}
   m_Layer: 0
   m_Name: ChaoMarrom (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2322,7 +2377,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.5943396, g: 0.24541418, b: 0, a: 1}
+  m_Color: {r: 0.5188679, g: 0.25852197, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2340,7 +2395,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613196232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3778, y: -5.7, z: 0}
+  m_LocalPosition: {x: -4.27, y: -4.93, z: 0}
   m_LocalScale: {x: 51.91045, y: 0.8669, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2351,6 +2406,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1613196235
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613196232}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &1637892869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2376,7 +2457,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2854397418959416293, guid: 22352b48bf56c7b46889dbbbc6a11651, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.52
+      value: 6.74
       objectReference: {fileID: 0}
     - target: {fileID: 2854397418959416293, guid: 22352b48bf56c7b46889dbbbc6a11651, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2750,9 +2831,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1865630271}
   - component: {fileID: 1865630272}
+  - component: {fileID: 1865630273}
   m_Layer: 0
   m_Name: ChaoMarrom (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2824,6 +2906,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1865630273
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865630270}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1888316575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,9 +2942,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1888316576}
   - component: {fileID: 1888316577}
+  - component: {fileID: 1888316578}
   m_Layer: 0
   m_Name: ChaoMarrom (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2908,6 +3017,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1888316578
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888316575}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1962597596
 GameObject:
   m_ObjectHideFlags: 0
